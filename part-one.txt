@@ -1,0 +1,28 @@
+Part One: Discussion Questions
+
+Runtime
+1. O(n)/linear runtime - the n (crackers in the box) determines the workload.
+2. Descending order of efficiency:
+    O(1)
+    O(log n)
+    O(n)
+    O(n long n)
+    O(n^2)
+    O(2^n)
+
+Stacks and Queues
+1. 1. Stacks, 2. Queues, 3. Stacks
+2. Queues Example #1: Waiting in line to vote - FIFO
+   Queues Example #2: The help queue on slack at Hackbright - FIFO
+3. Stacks Example #1: Fitted rings on a finger - LIFO
+   Stacks Example #2: Batteries in a tubular flashlight - LIFO
+
+Linked Lists
+1. The nodes are: Apple, Berry, Cherry. The data for each node are the corresponding strings "Apple" in node Apple, "Berry" in node Berry, "Cherry" in node Cherry. The head is Node Apple. There is no tail attribute. In the diagram, boxes indicate notes, strings indicate date, and the arrows reference the next node.
+2. In a doubly-linked lists, nodes have next and prev (referencing the previous node) attributes while singly-linked lists only have the next attribute.
+3. It's faster to append to a linked list if we keep track of its tail attribute because we don’t have to traverse the list every time we add a new node, instead we can directly reference the last node thereby improving our runtime.
+
+Trees
+1. A Breadth First Search algorithm uses queues, so the order of the nodes visited would be: Food, Italian, Indian, Mexican, lasagna, pizza, tikka masala, saag, burrito
+2. A Depth First Search algorithm uses stacks, so the order of the nodes visited would be: Food, Mexican, enchiladas, tacos, burrito, Indian, saag, tikka masala, Italian, pizza, Sicilian, New York-style, Chicago-style
+3. A binary search tree is different from other trees in that it only has a left and right child.
